@@ -1,38 +1,55 @@
-
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>JavaScript DOM Events</title>
-
+    <title>Image Changer App</title>
     <style>
-        body {
-            background-color: rgb(221, 123, 123);
+        body{
+            background-color: white;
             color: black;
+            text-align: center;
         }
+        .image_container{
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .image_container img{
+            width: 600px;
+            height: 500px;
+            object-fit: cover;
+            border: 2px solid black;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        .image_container h2{
+            background-color: bisque;
+            color: black;
+            padding: 15px;
+            border-radius: 10px;
+            border: 1px solid orange;
+            
+        }
+
+
     </style>
 </head>
-
 <body>
+    <h1>Image Changer Application</h1>
+    <div class="image_container">
 
-    <h1>We are learning JS Events</h1>
+        <!-- Image -->
+        <img id="foodImage" src="Images\puran-poli-3.jpg"
+        alt="Food">
 
-    <!-- onclick event -->
-
-    <button type="button" id="lightBtn">
-        Change to Light
-    </button>
-
-    <button type="button" id="darkBtn">
-        Change to Dark
-    </button>
-
-    <!-- Connect JavaScript file -->
-    <script src="script.js"></script>
-
+        <!-- Image title -->
+        <h2 id= "imageTitle"> Maharashtrian Food</h2>
+    </div>
+    
+      <!-- Connect JavaScript file -->
+   <script src="script.js"></script>
+    
 </body>
-
 </html>
