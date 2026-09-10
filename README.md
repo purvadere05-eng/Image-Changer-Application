@@ -1,106 +1,128 @@
-Image Changer Application
 
-A simple and interactive web application built using HTML, CSS, and JavaScript DOM manipulation. The application dynamically changes the displayed food image and its corresponding title when the user moves the mouse over the image.
+# 🍕 Image Changer Application
 
-🚀 Live Demo
+### 🖼️ Interactive Food Image Changer
 
-You can access the live application here:
+A simple and interactive web application built using **HTML, CSS, and JavaScript** that dynamically changes food images and their corresponding titles when the user interacts with the image.
 
-Live Demo:
-https://purvadere05-eng.github.io/Image-Changer-App/
+[🌐 **Live Demo**](https://purvadere05-eng.github.io/Image-Changer-App/)
 
-The application can be deployed using GitHub Pages from the repository's main branch.
+## ✨ Overview
 
-📌 Features
+**Image Changer Application** is a beginner-friendly JavaScript project created to practice **DOM manipulation, event handling, arrays, and objects**.
 
-Dynamic image changing using JavaScript
+When the user moves the mouse over the displayed food image, JavaScript dynamically changes:
 
-Dynamic title/text changing
+* 🖼️ Food Image
+* 📝 Food Title
 
-Mouseover event handling
+This project demonstrates how JavaScript can make a static HTML page **interactive and dynamic**.
 
-DOM element selection using querySelector()
+## 🎯 Features
 
-Event handling using addEventListener()
+| Feature               | Description                                       |
+| --------------------- | ------------------------------------------------- |
+| 🖼️ Dynamic Images    | Changes food images dynamically                   |
+| 📝 Dynamic Titles     | Updates the title according to the selected image |
+| 🖱️ Mouse Interaction | Uses `mouseover` event handling                   |
+| 🔍 DOM Selection      | Uses `querySelector()` to access HTML elements    |
+| ⚡ Event Handling      | Uses `addEventListener()`                         |
+| 📦 Arrays & Objects   | Stores and manages food image information         |
+| 🔄 Automatic Changes  | Cycles through multiple food images               |
+| 📱 Responsive UI      | Simple and responsive design                      |
 
-Uses JavaScript arrays and objects to manage image data
+---
 
-Automatically cycles through multiple food images
+## 🛠️ Technologies Used
 
-Simple and responsive user interface
 
-🛠️ Technologies Used
+| Technology        | Purpose                             |
+| ----------------- | ----------------------------------- |
+| 🟠 **HTML5**      | Structure of the application        |
+| 🔵 **CSS3**       | Styling and responsive layout       |
+| 🟡 **JavaScript** | DOM manipulation and event handling |
 
-HTML5 – Structure of the application
 
-CSS3 – Styling and layout
+## 📂 Project Structure
 
-JavaScript – DOM manipulation and event handling
-
-📂 Project Structure
-
+```text
 Image-Changer-App/
 │
-├── index.html
-├── script.js
+├── 📄 index.html
+├── 📄 script.js
 │
-└── Images/
-    ├── food1.jpg
-    ├── food2.jpg
-    └── food3.jpg
+└── 📁 Images/
+    ├── 🖼️ food1.jpg
+    ├── 🖼️ food2.jpg
+    └── 🖼️ food3.jpg
 
-⚙️ How to Run Locally
+## 🧠 JavaScript Concepts Practiced
 
-Clone the repository:
+This project helped me strengthen the following JavaScript concepts:
 
-git clone https://github.com/purvadere05-eng/Image-Changer-App.git
+* 🔹 `querySelector()`
+* 🔹 `addEventListener()`
+* 🔹 `mouseover` event
+* 🔹 Arrays
+* 🔹 Objects
+* 🔹 DOM Manipulation
+* 🔹 `src` attribute modification
+* 🔹 `textContent`
+* 🔹 Event-driven programming
+* 🔹 Dynamic content updates
 
-Open the project folder.
 
-Open index.html in your web browser.
+## 📚 Learning Journey
 
-Move the mouse over the image to see the image and title change dynamically.
+This project is part of my **JavaScript learning journey**.
 
-💡 How It Works
+While building this application, I learned how JavaScript interacts with HTML elements through the **DOM** and how events can be used to create interactive web applications.
 
-The application uses JavaScript to select the image and title elements from the DOM:
+Instead of only learning JavaScript concepts theoretically, I implemented them in a practical project.
 
-let image = document.querySelector("#foodImage");
-let imageTitle = document.querySelector("#imageTitle");
+---
 
-A mouseover event detects when the mouse moves over the image:
+## 🎯 Project Purpose
 
-image.addEventListener("mouseover", () => {
-    // Change image and title
-});
+The main purpose of this project was to:
 
-The image source and title are updated dynamically using JavaScript.
+> **Practice JavaScript DOM manipulation and event handling by building a small interactive web application.**
 
-📚 Learning Summary
+This project helped me understand how user actions can dynamically modify webpage content.
 
-Through this project, I practiced the fundamentals of JavaScript DOM manipulation, including:
+---
 
-querySelector()
+## 🔮 Future Improvements
 
-addEventListener()
+Some features I can add in the future:
 
-mouseover events
+* ⭐ Previous / Next buttons
+* ⭐ Image fade animations
+* ⭐ Food category filters
+* ⭐ Random food image button
+* ⭐ Image captions
+* ⭐ Better responsive design
+* ⭐ Mobile-friendly touch interaction
+* ⭐ More food items
 
-Arrays and objects
+---
 
-Dynamic src attribute modification
+## 👩‍💻 Author
 
-Dynamic textContent modification
+### **Purva Dere**
 
-Basic event-driven programming
+🎓 Java Full Stack Development Learner
+💻 Java | Hibernate | JDBC | Servlet | HTML | CSS | JavaScript
 
-🎯 Purpose
+### 🔗 Connect With Me
 
-This project was developed as part of my JavaScript learning journey to strengthen my understanding of DOM manipulation and JavaScript events through practical implementation.
+**GitHub:**
+[github.com/purvadere05-eng](https://github.com/purvadere05-eng)
 
-👩‍💻 Author
+⭐ **If you like this project, consider giving it a star!**
 
-Purva Dere
+### 🍔 Built with HTML + CSS + JavaScript ❤️
 
-GitHub:
-https://github.com/purvadere05-eng
+**Thanks for visiting!**
+
+
