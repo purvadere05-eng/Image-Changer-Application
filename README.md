@@ -1,9 +1,10 @@
-
 # 🍕 Image Changer Application
 
 ### 🖼️ Interactive Food Image Changer
 
 A simple and interactive web application built using **HTML, CSS, and JavaScript** that dynamically changes food images and their corresponding titles when the user interacts with the image.
+
+---
 
 ## ✨ Overview
 
@@ -15,6 +16,8 @@ When the user moves the mouse over the displayed food image, JavaScript dynamica
 * 📝 Food Title
 
 This project demonstrates how JavaScript can make a static HTML page **interactive and dynamic**.
+
+---
 
 ## 🎯 Features
 
@@ -33,13 +36,13 @@ This project demonstrates how JavaScript can make a static HTML page **interacti
 
 ## 🛠️ Technologies Used
 
+| Technology    | Purpose                             |
+| ------------- | ----------------------------------- |
+| 🟠 HTML5      | Structure of the application        |
+| 🔵 CSS3       | Styling and responsive layout       |
+| 🟡 JavaScript | DOM manipulation and event handling |
 
-| Technology        | Purpose                             |
-| ----------------- | ----------------------------------- |
-| 🟠 **HTML5**      | Structure of the application        |
-| 🔵 **CSS3**       | Styling and responsive layout       |
-| 🟡 **JavaScript** | DOM manipulation and event handling |
-
+---
 
 ## 📂 Project Structure
 
@@ -53,6 +56,9 @@ Image-Changer-App/
     ├── 🖼️ food1.jpg
     ├── 🖼️ food2.jpg
     └── 🖼️ food3.jpg
+```
+
+---
 
 ## 🧠 JavaScript Concepts Practiced
 
@@ -69,6 +75,7 @@ This project helped me strengthen the following JavaScript concepts:
 * 🔹 Event-driven programming
 * 🔹 Dynamic content updates
 
+---
 
 ## 📚 Learning Journey
 
@@ -84,7 +91,7 @@ Instead of only learning JavaScript concepts theoretically, I implemented them i
 
 The main purpose of this project was to:
 
-> **Practice JavaScript DOM manipulation and event handling by building a small interactive web application.**
+> 💡 **Practice JavaScript DOM manipulation and event handling by building a small interactive web application.**
 
 This project helped me understand how user actions can dynamically modify webpage content.
 
@@ -95,32 +102,35 @@ This project helped me understand how user actions can dynamically modify webpag
 Some features I can add in the future:
 
 * ⭐ Previous / Next buttons
-* ⭐ Image fade animations
-* ⭐ Food category filters
-* ⭐ Random food image button
-* ⭐ Image captions
-* ⭐ Better responsive design
-* ⭐ Mobile-friendly touch interaction
-* ⭐ More food items
+* 🎞️ Image fade animations
+* 🗂️ Food category filters
+* 🎲 Random food image button
+* 📝 Image captions
+* 📱 Better responsive design
+* 👆 Mobile-friendly touch interaction
+* 🍔 More food items
 
 ---
 
 ## 👩‍💻 Author
 
-### **Purva Dere**
+### 👤 Purva Dere
 
 🎓 Java Full Stack Development Learner
-💻 Java | Hibernate | JDBC | Servlet | HTML | CSS | JavaScript
 
-### 🔗 Connect With Me
+💻 **Skills:** Java | Hibernate | JDBC | Servlet | HTML | CSS | JavaScript
 
-**GitHub:**
-[github.com/purvadere05-eng](https://github.com/purvadere05-eng)
+---
+
+## 🔗 Connect With Me
+
+**🐙 GitHub:**
+https://github.com/purvadere05-eng
+
+---
 
 ⭐ **If you like this project, consider giving it a star!**
 
 ### 🍔 Built with HTML + CSS + JavaScript ❤️
 
-**Thanks for visiting!**
-
-
+**Thanks for visiting!** 🙌
