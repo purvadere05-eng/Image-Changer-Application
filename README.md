@@ -5,8 +5,6 @@
 
 A simple and interactive web application built using **HTML, CSS, and JavaScript** that dynamically changes food images and their corresponding titles when the user interacts with the image.
 
-[🌐 **Live Demo**](https://purvadere05-eng.github.io/Image-Changer-App/)
-
 ## ✨ Overview
 
 **Image Changer Application** is a beginner-friendly JavaScript project created to practice **DOM manipulation, event handling, arrays, and objects**.
